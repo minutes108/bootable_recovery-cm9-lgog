@@ -478,6 +478,8 @@ LOGE("ev code=ABS_MT_PRESSURE value=%d\n", ev.value);
 break;
 }
 */
+#define TAP_TO_SELECT
+
         if (ev.code == ABS_MT_TRACKING_ID) {
             s_tracking_id = ev.value;
             if (s_tracking_id == -1) {
